@@ -1,0 +1,24 @@
+Songs
+  Name
+    Track Number
+    Last Played
+    Format
+    Kind
+    Size
+    Date Modified
+    Play Count
+    Song Time
+    Volume Adjustment
+    Lyrics
+    Rating
+    File Location
+
+Albums
+  Other Album Artists
+  Song Name (List to other table)
+  Release Date
+  Disc Number
+  
+Artists
+  Songs [links to song table]
+  Albums  [links to album table]

@@ -1,0 +1,30 @@
+Create a database for albums
+Citation:
+http://askville.amazon.com/design-CD-collection-database/AnswerViewer.do?requestId=2793834
+
+I assume that each CD is an album from 1 artist.
+
+create table ALBUMS (
+ALBUM_ID INTEGER PRIMARY KEY
+TITLE  TEXT
+YEAR INTEGER
+ARTIST_ID INTEGER FOREIGN KEY
+)
+
+create table ALBUM_GENRES (
+GENRE NAME
+)
+
+create table ALBUM_TRACKS (
+TRACK_ID 
+ALBUM_ID 
+TRACK_NAME TEXT
+LENGTH_SECONDS 
+)
+
+create table ARTISTS (
+ARTIST_ID 
+NAME TEXT
+BIOGRAPHY TEXT OPTIONAL
+)
+

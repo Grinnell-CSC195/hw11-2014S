@@ -1,0 +1,33 @@
+CREATE TABLE SONG
+(
+Title
+Band
+Producer
+Writer-Lyrics
+Writer–Music
+Genre
+Time
+Year
+Rating
+Album
+Awards
+Music Video(?)
+);
+
+CREATE TABLE ALBUM
+(
+Title
+Band
+Year
+Songs
+Time
+);
+
+CREATE TABLE ARTIST
+(
+Name
+Albums
+Awards
+Years Played
+Label(s)
+);

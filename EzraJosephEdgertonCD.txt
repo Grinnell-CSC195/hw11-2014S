@@ -1,0 +1,23 @@
+CREATE TABLE ALBUM (
+AlbumName
+Year
+Artist
+Genre
+Rating
+List of Songs
+);
+
+
+CREATE TABLE ARTISTS (
+Albumnames
+Genre
+Range of Years making music
+);
+
+CREATE TABLE SONGS (
+Artist
+Album
+Length in seconds
+Year 
+Rating)
+);

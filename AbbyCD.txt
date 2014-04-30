@@ -1,0 +1,30 @@
+# This is definitely not accurate SQL, more of a list thrown into an SQL-like structure. Also I wasn't in the last class
+# and so I looked at the files already submitted for ~inspiration~ so thanks Toby and Khoa :)
+
+CREATE TABLE Artists
+(
+Artist_ID INTEGER PRIMARY KEY
+Song_ID INTEGER FOREIGN KEY (links to Songs table)
+Album_ID INTEGER FOREIGN KEY (links to Albums table)
+)
+
+CREATE TABLE Songs
+(
+Song_ID INTEGER PRIMARY KEY
+Artist_ID INTEGER FOREIGN KEY (links to Artists table)
+Album_ID INTEGER FOREIGN KEY (links to Albums table, not sure if that's what foreign keys do)
+Track_Number INTEGER
+Genre TEXT 
+Song_Length INTEGER (seconds)
+File_Type TEXT (mp3 etc)
+Times_Played INTEGER
+Last_Played INTEGER (days ago)
+Rating INTEGER (out of 5)
+)
+
+CREATE TABLE Albums
+(
+Album_ID INTEGER PRIMARY KEY
+Song_ID INTEGER FOREIGN KEY (links to Songs table, gives all songs on album)
+Artist_ID INTEER FOREIGN KEY (links to Artists table, gives all artists on album)
+)

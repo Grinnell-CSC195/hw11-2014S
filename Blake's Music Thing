@@ -1,0 +1,101 @@
+
+Song name (link to album name, EP name, single name, or other)
+          Length
+          Artist (links to artist table)
+          Album 
+          Release Date
+          Track Number (links this track to other tracks through a table other than artist or album)
+          Composer(s)
+          Lyricist(s)
+          Play Count
+          Size
+          Bit Rate
+          BPM
+          Key
+          File type: 
+               AAC
+               mp3
+               mp4
+               WAV
+               FLAC
+          Genre (grabs the data from album listing, though can be changed independently) 
+          Artwork (grabs data from album listing)
+          Lyrics        
+          Channel (Stereo, Mono) 
+          Rating
+          Instruments 
+                Tuning of instruments
+                Type (electric or acostic, 6 string or 12 string, what kind of strings (nylon or steel))
+                Origin of instrument 
+                
+         
+Artist
+     Songs
+     Albums 
+     Genre
+     Members of the group (if group or band - could be an individual composer) 
+     
+
+Album or EP 
+     Artist (referenced to the “Artist” table)
+     Length (summation of the lengths of all of the tracks linking to the album)
+     Release Date 
+     Disc Number (if part of a compilation) - links together with other albums considered to be part of the compilation 
+     Composer(s) (grabs data from each of the songs considered to be part of the album - makes a class of this data)
+     Lyricist(s) (grabs data from each of the songs considered to be part of the album - makes a class of this data)
+     Instruments Used (grabs data from each of the songs considered to be part of the album)
+     Genre
+     Artwork 
+     Recording location (unlikely that songs on an album would be recorded at multiple locations, unless live album)
+     Producer (producer does not need to have a listing on song information - it would be very rare to have songs on an album that had different producers)
+     
+
+Instrumentation (all of this information is taken from the song information table and placed into a new table according to the below categories) 
+     Guitar 
+          Acoustic
+               6-string
+                    Nylon 
+                    Steel
+               12-string
+          Electric 
+               6-string
+               7-string
+               8-string
+               12-string
+     Percussion
+          Acoustic Drums
+          Electronic Drums
+          Orchestral Drums
+               Triangle 
+          Hand Drum
+                Tabla
+     Bass
+          4 string
+          5 string
+          6 string
+          Upright 
+     Vocals 
+          male 
+          female 
+     Stringed 
+          Cello
+          Bass
+          Viola 
+          Violin 
+          Harp
+          Banjo 
+          Sitar 
+     Tunings
+          Guitar 
+               Standard
+               Drop D
+               DADGAD
+               Open G
+               Open D
+               Half-step down
+               Full-step down
+               Quarter-step down
+               other 
+               Capo Fret #:
+      
+

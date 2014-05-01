@@ -1,0 +1,57 @@
+CD Thing database
+
+Table for CD information:
+     	*id
+     	*Title
+	*Artist id
+	*Year produced
+	*Genre(s)
+	*List of Tracks
+
+**SAMPLE CD ENTRY*******************************************
+id: 45293
+Title: Prolonging the Magic
+Artist id: 33390
+Year produced: 1998
+Genre(s): Alternative, Alternative Rock, Alternative Punk
+List of Tracks:
+	-Satan is My Motor
+	-Mexico
+	-Never There
+	-Guitar
+	-You Turn The Screws
+	-Walk On By
+	-Sheep Go To Heaven
+	-When You Sleep
+	-Hem Of Your Garment
+	-Alpha Beta Parking Lot
+	-Let Me Go
+	-Cool Blue Reason
+	-Where Would I Be
+************************************************************
+
+Table for Artist:
+	*id
+	*Name
+	*Genre(s)
+	*Orgin country
+	*Orgin city
+	*Years active
+	*Website
+
+**SAMPLE ARTIST ENTRY**********
+id: 33390
+Name: CAKE
+Genre(s): Alternative Rock
+Orgin country: United States
+Orgin city: Sacremento, CA
+Years active: 1991-present
+Website: cakemusic.com
+*******************************
+
+Table relating CDs and Artists:
+	row: *CD id: *Artist id
+
+**SAMPLE ENTRY***********************
+row: *CD id: 45293 *Artist id: 33390
+*************************************

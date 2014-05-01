@@ -1,0 +1,46 @@
+CREATE TABLE SONGS
+(
+    Title
+    Artist [links to artist table]
+    Album [links to album table]
+    Track Number
+    Genre
+    Release Date
+    Play Count
+    Song Time (seconds)
+    Volume Adjustment
+    Lyrics
+    Producer
+    Mixer
+    Writer (lyrics)
+    Writer (music)
+    Additional Instrumentalists
+    Rating
+    Awards
+);
+   
+CREATE TABLE ALBUMS
+(
+  Title
+  Artist [link to artist table]
+  Other Album Artists
+  Song Name [link to song table]
+  Genre
+  Release Date (year)
+  Record Label
+  Producer
+  Rating
+  Awards
+  );
+ 
+CREATE TABLE ARTIST/COMPOSER/MUSIC SUPERVISOR
+(
+  Name
+  Members (if more than one in band/group)
+  Songs [links to song table]
+  Albums  [links to album table]
+  Label(s)
+);​
+
+**Sources: I looked Alex Greenberg and Toby Baratta's resonses, combined
+  certain aspects from both of them and then added some of my own information.

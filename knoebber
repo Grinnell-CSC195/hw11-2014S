@@ -1,0 +1,30 @@
+CREATE TABLE ALBUM (
+Name
+Artist
+Song List
+Release date
+Genre
+Rating
+Length
+Amount sold
+);
+
+CREATE TABLE SONGS (
+Artist
+Featured Artists
+Times played
+Length
+Album
+Year
+Rating
+Genre
+Explicit?
+);
+
+CREATE TABLE ARTISTS (
+Discography
+Years active
+Net worth
+Genre
+);
+

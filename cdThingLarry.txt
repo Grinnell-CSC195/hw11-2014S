@@ -1,0 +1,24 @@
+**** Pseudo-format for setting up CD Thing ****
+	 Boateng Asante, Larry
+***********************************************
+
+Set Table For Songs
+ - Name of song
+ - Length
+ - Rating
+ - Year of Release
+ - Producer
+ 
+Set Table For Album
+ - Name
+ - Artist
+ - Year
+ - Number of Songs
+ - Album Release Date
+ - Rating
+ 
+Set Table Artist
+ - Name(s)
+ - Record Label
+ - Albums Released
+ - Stage Name

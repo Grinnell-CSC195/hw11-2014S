@@ -1,0 +1,1 @@
+Songs* Name* Length* Track number* Plays * Rating* Lyrics* Instruments* Artists  * Album* Play count* File typeArtists* Name* Age (Birth-Current, or Birth-Death)* Origin* Preferred genre* Similar artistsAlbums* Title* Artist* Producer* Rating* Release date* Genre* Similar albums* Cover art

@@ -1,0 +1,44 @@
+#I wasn't in class so I looked up how to do this.  Here are the resources I used:
+http://askville.amazon.com/design-CD-collection-database/AnswerViewer.do?requestId=2793834
+http://geekgirls.com/2010/02/databasics-ii-creating-your-first-database/
+
+create table SONGS
+(
+	SONG_ID INTEGER PRIMARY KEY
+	ALBUM_ID INTEGER FOREIGN KEY
+	GENRE_NAME TEXT FOREIGN KEY
+	NAME TEXT
+	LENGTH INTEGER
+	FORMAT TEXT
+	SIZE INTEGER
+	SEQUENCE INTEGER	
+	PLAYCOUNT INTEGER			
+)
+
+create table ALBUMS
+(
+	ALBUM_ID INTEGER PRIMARY KEY
+	GENRE_NAME TEXT FOREIGN KEY
+	TITLE TEXT
+	YEAR INTEGER
+	LENGTH INTEGER
+	AWARDS TEXT
+	REALEASEDATE INTEGER
+	COVER IMAGE
+)		
+
+create table ARTIST
+(
+	ARTIST_ID INTEGER PRIMARY KEY
+	NAME TEXT
+	GENRE_NAME TEXT FOREIGN KEY
+	BIOGRAPHY TEXT	
+)	
+
+create table GENRES
+(
+	GENRE_NAME TEXT PRIMARY KEY
+	DESCRIPTION TEXT	
+)	
+
+

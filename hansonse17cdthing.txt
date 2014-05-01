@@ -1,0 +1,31 @@
+CDTHING - neccessary tables as estimated by Seth Hanson:
+
+Artist Table
+*Artist_ID
+*Artist_Name
+*Artist_Place-of-Origin
+*Artist_Status (e.g. current, haitus, dead)
+
+Album Table
+*Album_ID
+*Album_Title
+*Artist_ID
+*Album_Length
+*Genre
+*Release_Year
+*Album_Cover-Art-File-Location
+
+Song Table
+*Song_ID
+*Song_Name
+*Song_Track-Number
+*Song_Radio-Clean? (e.g. "Fuck the police" -> "N")
+*Song_Length
+*Song_Bitrate
+*Song_File-Location
+*Song_Comment (e.g. "I listened to this song on repeat while I climbed Mt. Everest")
+*Song_Rating
+*Song_Composer
+*Song_Other-Contributors
+*Album_ID
+

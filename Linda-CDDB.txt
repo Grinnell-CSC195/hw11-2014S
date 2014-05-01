@@ -1,0 +1,25 @@
+Songs
+	Name
+	Track Number
+	File Format
+	File Size
+	File Location
+	Date Modified
+	Play Count
+	Song Length
+	Lyrics
+	Composer
+	Rating
+
+
+Albums
+	Songs (links to Songs table)
+	Release Date
+	Genre
+	Rating
+	Album art
+
+Artists
+	Songs (links to Songs table)
+	Albums (links to album table)
+	Genre

@@ -1,0 +1,46 @@
+CDThing
+
+Citations: 
+	https://www.librarything.com/
+	http://docs.oracle.com/cd/B19306_01/server.102/b14200/toc.htm
+
+CREATE TYPE track AS OBJECT
+( 
+ Track_Name varchar(255),
+ Track_ArtistName varchar(100),
+ Track_AlbumName(255),
+ Track_Length time,
+ Track_YearReleased number(4),
+ Track_Genre varchar(50),
+ Track_RelatedTracks tracklist
+);
+
+
+CREATE TYPE tracklist AS VARRAY(200) OF track;
+CREATE TYPE playlist AS VARRAY(50) OF tracklist;
+
+
+CREATE TABLE cd
+(
+ CD_AlbumName varchar(255),
+ CD_ArtistName varchar(100),
+ CD_YearReleased number(4),
+ CD_Genre varchar(50),
+ CD_TrackList tracklist
+ CD_RelatedCDS cdlist
+);
+
+
+CREATE TYPE cdlist as VARRAY(200) OF cd;
+
+
+CREATE TABLE user
+(
+ User_FirstName varchar(30),
+ User_LastName varchar(30),
+ User_Age number(3),
+ User_HomeCity varchar(30),
+ User_AboutMe varchar(255),
+ User_Catalog tracklist,
+ User_Playlists playlist;
+);

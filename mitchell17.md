@@ -1,6 +1,7 @@
 Table Songs
-  Song Title
-  Artist
+
+	Song Title
+	Artist
   Album
   Length
   Rating
@@ -8,23 +9,23 @@ Table Songs
   BPM
 
 Table Artists
-  Artist Name
-  Artist Description
-  Artist Birth Year
-  Artist Death Year
-  Artist Favorite Color
-  Related Artists
+	Artist Name
+	Artist Description
+	Artist Birth Year
+	Artist Death Year
+	Artist Favorite Color
+	Related Artists
 
 Table Albums
-  Album Title
-  Album Artist
-  Album Producers
-  Album Collection
-  Album Genre
-  Album Year
-  Album Length
-  Album Rating
-  Related Albums
+	Album Title
+	Album Artist
+	Album Producers
+	Album Collection
+	Album Genre
+	Album Year
+	Album Length
+	Album Rating
+	Related Albums
 
 Table Users
   Forename

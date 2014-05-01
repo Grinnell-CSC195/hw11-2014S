@@ -1,0 +1,32 @@
+
+
+create table SONGS
+	(
+	Name 
+	Artist
+	Length
+	Record Label
+	Genre
+	Bitrate
+	Format
+	Year released
+	Album/EP
+	)
+
+create table ALBUMS
+	(
+	Name
+	Artist
+	Year
+	Number of Tracks
+	Songs
+	Total length
+	)
+
+create table ARTISTS
+	(
+	Name
+	Member(s)
+	No. of albums
+	Genre	
+	)
